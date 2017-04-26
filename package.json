@@ -1,0 +1,12 @@
+{
+  "name": "social-network-angular",
+  "version": "1.0.0",
+  "description": "Angular front-end for Albatross social network",
+  "main": "index.js",
+  "repository": "git@github.com:jonathancast/social-network-angular.git",
+  "author": "Jonathan Cast <jonathanccast@fastmail.fm>",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "^1.6.4"
+  }
+}
