@@ -12,10 +12,10 @@
         </div>
 
         <div id="login" ng-show='loginVisible'>
-            <form name="login-form">
-                Login ID: <input name="login_id" type="text"><br>
-                Password: <input name="password" type="password"><br>
-                <button name="dologin">Login</button>
+            <form>
+                Login ID: <input type="text" ng-model="login.login_id"><br>
+                Password: <input type="password" ng-model="login.password"><br>
+                <button ng-click="login.doLogin()">Login</button>
             </form>
         </div>
 
