@@ -1,6 +1,6 @@
 'use strict';
 
-var app = angular.module('albatross-social-network', []);
+var app = angular.module('albatross-social-network', ['ngMessages']);
 
 var myCtrl = function($scope) {
     $scope.loginVisible = true;
